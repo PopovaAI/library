@@ -9,10 +9,11 @@ public class Publication {
     protected int year;
     protected String author;
     
-    public Publication;
+    public Publication(){
     this.name="";
     this.year=0;
     this.autor="";
+    }
     
     public Publication (String name, int year, String author){
         
